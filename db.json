@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fullName": "Demo User",
+      "email": "demo@example.com",
+      "password": "demo123",
+      "bio": "A passionate blogger",
+      "createdAt": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": "1769173409346",
+      "fullName": "Warren English",
+      "email": "wotaty@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "bio": "Natus commodo aut no",
+      "createdAt": "2026-01-23T13:03:29.346Z"
+    },
+    {
+      "id": "1769230468058",
+      "fullName": "Coby Pruitt",
+      "email": "batib@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "bio": "Sint aute ab dolore",
+      "createdAt": "2026-01-24T04:54:28.058Z"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "userId": "1",
+      "title": "Getting Started with React",
+      "description": "Learn the basics of React and how to build modern web applications",
+      "content": "React is a powerful JavaScript library for building user interfaces. In this blog, we'll explore the fundamental concepts of React including components, state management, and hooks. React makes it easy to create interactive UIs by breaking them down into reusable components.\n\nOne of the key benefits of React is its virtual DOM, which makes rendering efficient. When state changes, React updates only the necessary parts of the DOM, resulting in better performance.",
+      "category": "Technology",
+      "authorName": "Demo User",
+      "likes": [],
+      "createdAt": "2024-01-15T10:30:00Z",
+      "updatedAt": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": "1769520198085",
+      "title": "Voluptatem optio qui ut reprehenderit dolor porro vitae aute recusandae Quaerat aliquam omnis vol",
+      "description": "Aut sint enim autem aut eiusmod tenetur",
+      "content": "Quo sint ad eaque eo",
+      "category": "Lifestyle",
+      "userId": "1769173409346",
+      "authorName": "Warren English",
+      "likes": [
+        "1769173409346"
+      ],
+      "createdAt": "2026-01-27T13:23:18.085Z",
+      "updatedAt": "2026-01-27T13:26:41.517Z"
+    }
+  ]
+}
